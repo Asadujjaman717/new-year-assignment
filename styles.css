@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  font-family: "Open sans", sans-serif;
+}
+.header {
+  background-image: url("/images/banner/banner1.png");
+  padding-left: 300px 0px 0px 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1200px;
+  width: 100%;
+}
+.cover {
+  text-align: right;
+  padding: 400px 700px;
+}
+.cover-title {
+  font-size: 70px;
+}
+.cover-description {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.btn-contact-us {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f15b22;
+  border-radius: 5px;
+  width: 260px;
+  height: 64px;
+  flex-shrink: 0;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.cover2 img {
+  padding: 50px 10px 10px 700px;
+  width: 651px;
+  height: 798px;
+  flex-shrink: 0;
+}
+.cover2-title {
+  font-size: 50px;
+}
+.cover2-description {
+  font-size: 20px;
+  padding: 20px;
+}
+.cover2 {
+  display: flex;
+  align-items: center;
+}
+.img {
+  flex: 1;
+  /* padding: 10px; */
+}
+.content {
+  flex: 1;
+  padding: 100px 10px 30px 10px;
+}
+.check-icon {
+  display: inline-block;
+  width: 26px; /* Adjust the width and height as needed */
+  height: 26px;
+  margin-right: 8px; /* Adjust the spacing between the icon and the text */
+  fill: green; /* You can change the color of the icon here */
+}
+.items {
+  padding: 20px;
+  font-size: 20px;
+}
+.my-plan-title {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+.my-plan {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.my-plan div {
+  padding: 40px;
+}
+.mindset {
+   background-image: url("images/watch.png"),url("images/gradient3.png"); 
+  background-repeat: no-repeat;
+  width: 1540px;
+  height: 900px;
+  border-radius: 8px;
+  margin: 0 auto;
+
+  /* margin-left: 900px; */
+  padding: 50px;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+  
+}
+
+/* .mindset img{
+  
+} */
+.mindset-title{
+ color: aliceblue;
+ font-size: 40px;
+}
+.btn-mind-set{
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 800;
+  color: #f15b22;
+  border-radius: 5px;
+}
+footer{
+  background-color: black;
+  height: 400px;
+  color: aliceblue;
+  padding: 200px;
+  font-size: 30px;
+}
+.image{
+  padding:20px;
+}
