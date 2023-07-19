@@ -3,7 +3,7 @@
   font-family: "Open sans", sans-serif;
 }
 .header {
-  background-image: url("/images/banner/banner1.png");
+  background-image: url("./images/banner/banner1.png");
   padding-left: 300px 0px 0px 300px;
   background-size: cover;
   background-repeat: no-repeat;
