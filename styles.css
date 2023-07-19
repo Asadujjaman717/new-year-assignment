@@ -84,14 +84,17 @@
 .my-plan div {
   padding: 40px;
 }
-.mindset {
-   background-image: url("images/watch.png"),url("images/gradient3.png"); 
-  background-repeat: no-repeat;
+.medset-main{
   width: 1540px;
   height: 900px;
-  border-radius: 8px;
   margin: 0 auto;
-
+}
+.mindset {
+  background-image: url("images/watch.png"),url("images/gradient3.png"); 
+  /* background-repeat: repeat-x; */
+  background-size:cover;
+  background-position: center;
+  border-radius: 8px;
   /* margin-left: 900px; */
   padding: 50px;
   border-radius: 8px;
@@ -122,4 +125,18 @@ footer{
 }
 .image{
   padding:20px;
+}
+.subscribe{
+  float:left;
+  margin-right: 300px;
+  font-size: 40px;
+  /* margin-left: 200px; */
+  
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+input[type='email']{
+  font-size: 30px;
 }
